@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background: #0408ff;
+            color: white;
+            flex-wrap: wrap;
+            flex: 1;
+        }
+        nav{
+            padding: 20px;
+        }
+        nav ul{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 20px;
+            list-style: none;
+        }
+        ul li a{
+            text-decoration: none;
+            color: white;
+        }
+        main{
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+        section{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+        .sectionTwo{
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+            gap: 20px;
+        }
+        article{
+            
+            
+            padding: 20px;
+            border: 1px solid #101011;
+            background: #f1f1f1;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        @media (max-width: 768px){
+            section{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+        .sectionTwo{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+        }
+        @media (max-width: 480px){
+            section{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 20px;
+        }
+        .sectionTwo{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 20px;
+        }
+    }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <div class="brandName"><h1>My Website</h1></div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <article>
+                <h2>Project One</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia ex repellendus cum voluptates delectus natus minima facilis animi asperiores ad perferendis modi, in tempora, odit iusto autem sint cumque eaque!</p>
+            </article>
+            <article>
+                <h2>Project Two</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga consequatur sunt eius labore quisquam dolore, minima obcaecati, maiores eaque ducimus in recusandae maxime veniam accusamus, dolores nobis porro adipisci officia!</p>
+            </article>
+            <article>
+                <h2>Project One</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia ex repellendus cum voluptates delectus natus minima facilis animi asperiores ad perferendis modi, in tempora, odit iusto autem sint cumque eaque!</p>
+            </article>
+            <article>
+                <h2>Project Two</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga consequatur sunt eius labore quisquam dolore, minima obcaecati, maiores eaque ducimus in recusandae maxime veniam accusamus, dolores nobis porro adipisci officia!</p>
+            </article>
+            <article>
+                <h2>Project One</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia ex repellendus cum voluptates delectus natus minima facilis animi asperiores ad perferendis modi, in tempora, odit iusto autem sint cumque eaque!</p>
+            </article>
+            <article>
+                <h2>Project Two</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga consequatur sunt eius labore quisquam dolore, minima obcaecati, maiores eaque ducimus in recusandae maxime veniam accusamus, dolores nobis porro adipisci officia!</p>
+            </article>
+            <article>
+                <h2>Project One</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia ex repellendus cum voluptates delectus natus minima facilis animi asperiores ad perferendis modi, in tempora, odit iusto autem sint cumque eaque!</p>
+            </article>
+            <article>
+                <h2>Project Two</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga consequatur sunt eius labore quisquam dolore, minima obcaecati, maiores eaque ducimus in recusandae maxime veniam accusamus, dolores nobis porro adipisci officia!</p>
+            </article>
+        </section>
+        <div class="sectionTwo">
+            <article>
+                <h2>Work Done</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas amet eius possimus itaque odio repellat nobis aperiam assumenda. Totam assumenda sint nulla voluptatibus? Neque facilis illum itaque, tenetur dicta totam?</p>
+            </article>
+            <article>
+                <h2>Work Done</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae dignissimos consequuntur molestiae, veritatis voluptas neque quae enim aspernatur, quibusdam temporibus ipsam. Iusto inventore sapiente porro nam enim quas ex debitis.</p>
+            </article>
+            <article>
+                <h2>Work Done</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas amet eius possimus itaque odio repellat nobis aperiam assumenda. Totam assumenda sint nulla voluptatibus? Neque facilis illum itaque, tenetur dicta totam?</p>
+            </article>
+            <article>
+                <h2>Work Done</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae dignissimos consequuntur molestiae, veritatis voluptas neque quae enim aspernatur, quibusdam temporibus ipsam. Iusto inventore sapiente porro nam enim quas ex debitis.</p>
+            </article>
+            <article>
+                <h2>Work Done</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas amet eius possimus itaque odio repellat nobis aperiam assumenda. Totam assumenda sint nulla voluptatibus? Neque facilis illum itaque, tenetur dicta totam?</p>
+            </article>
+            <article>
+                <h2>Work Done</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae dignissimos consequuntur molestiae, veritatis voluptas neque quae enim aspernatur, quibusdam temporibus ipsam. Iusto inventore sapiente porro nam enim quas ex debitis.</p>
+            </article>
+            <article>
+                <h2>Work Done</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas amet eius possimus itaque odio repellat nobis aperiam assumenda. Totam assumenda sint nulla voluptatibus? Neque facilis illum itaque, tenetur dicta totam?</p>
+            </article>
+            <article>
+                <h2>Work Done</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae dignissimos consequuntur molestiae, veritatis voluptas neque quae enim aspernatur, quibusdam temporibus ipsam. Iusto inventore sapiente porro nam enim quas ex debitis.</p>
+            </article>
+        </div>
+    </main>
+
+</body>
+</html>
