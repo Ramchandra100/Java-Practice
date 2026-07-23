@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+    :root{
+        --primary-color: #0F7173;
+        --secondary-color: #D8A47F;
+        --color-text: #E7ECEF;
+        --button-color: #F05D5E;
+        --dark-color: #272932;
+        --font-family-header: 'Archivo Black', sans-serif;
+        --font-family-body: 'Poppins', sans-serif;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    header{
+        background-color: var(--dark-color);
+        color: var(--color-text);
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+    nav ul{
+        display: flex;
+        gap: 20px;
+    }
+    nav ul li a,li{
+        color: var(--color-text);
+        text-decoration: none;
+        list-style: none;
+    }
+    h1, h2{
+        font-family: 'Archivo Black', sans-serif;
+    }
+    p{
+        font-family: 'Poppins', sans-serif;
+    }
+    main{
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    section{
+        margin-bottom: 20px;
+        display: flex;
+        gap: 20px;
+    }
+    article{
+        flex: 1;
+        padding: 10px;
+        border: 1px solid #ccc;
+        background-color: var(--secondary-color);
+        border-radius: 5px;
+    }
+    footer{
+        background-color: var(--dark-color);
+        color: var(--color-text);
+        text-align: center;
+        padding: 10px;
+    }
+</style>
+<body>
+    <header>
+        <h1>My Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Welcome to My Website</h2>
+            <article>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum, nihil sint? Optio labore, in aliquid accusamus quis non illo. Sequi non eos odit ipsum beatae eveniet maiores molestias exercitationem in!
+                    Amet natus tempora cumque similique numquam iusto repellendus necessitatibus asperiores quis quam. Quod quisquam nisi architecto exercitationem numquam deserunt vel. Obcaecati quia cupiditate porro eveniet accusamus nam debitis molestias totam?
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, nihil sint? Optio labore, in aliquid accusamus quis non illo. Sequi non eos odit ipsum beatae eveniet maiores molestias exercitationem in!
+                </p>
+            </article>
+        </section>
+        <section>
+            <h2>Welcome to My Website</h2>
+            <article>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum, nihil sint? Optio labore, in aliquid accusamus quis non illo. Sequi non eos odit ipsum beatae eveniet maiores molestias exercitationem in!
+                    Amet natus tempora cumque similique numquam iusto repellendus necessitatibus asperiores quis quam. Quod quisquam nisi architecto exercitationem numquam deserunt vel. Obcaecati quia cupiditate porro eveniet accusamus nam debitis molestias totam?
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, nihil sint? Optio labore, in aliquid accusamus quis non illo. Sequi non eos odit ipsum beatae eveniet maiores molestias exercitationem in!
+                </p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 My Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
